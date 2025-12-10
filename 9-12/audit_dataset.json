@@ -1,0 +1,1752 @@
+[
+  {
+    "id": "L4_DEV_Usage_001",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Stanford FMTI",
+    "prompt": "Does the documentation explicitly list specific positive use cases (e.g., 'creative writing', 'coding assistance')?"
+  },
+  {
+    "id": "L4_DEV_Usage_002",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Stanford FMTI",
+    "prompt": "Does the documentation explicitly list specific out-of-scope or prohibited use cases?"
+  },
+  {
+    "id": "L4_DEV_Usage_003",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "NIST AI RMF",
+    "prompt": "Is there a definition of the intended user group (e.g., developers, general public, researchers)?"
+  },
+  {
+    "id": "L4_DEV_Usage_004",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "EU AI Act",
+    "prompt": "Is there a specific prohibition against using the model for biometric identification or categorization?"
+  },
+  {
+    "id": "L4_DEV_Usage_005",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "EU AI Act",
+    "prompt": "Is there a specific prohibition against using the model for predictive policing or law enforcement profiling?"
+  },
+  {
+    "id": "L4_DEV_Usage_006",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "EU AI Act",
+    "prompt": "Is there a specific prohibition against generating Non-Consensual Sexual Content (NCSC)?"
+  },
+  {
+    "id": "L4_DEV_Usage_007",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "NIST AI RMF",
+    "prompt": "Are there explicit warnings regarding the generation of medical advice or diagnosis?"
+  },
+  {
+    "id": "L4_DEV_Usage_008",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "NIST AI RMF",
+    "prompt": "Are there explicit warnings regarding the generation of legal advice or binding contracts?"
+  },
+  {
+    "id": "L4_DEV_Usage_009",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "NIST AI RMF",
+    "prompt": "Are there explicit warnings regarding financial advice or investment recommendations?"
+  },
+  {
+    "id": "L4_DEV_Usage_010",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does the documentation link to a standalone Acceptable Use Policy (AUP) document?"
+  },
+  {
+    "id": "L4_DEV_Usage_011",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Is there a disclaimer stating that model outputs may be factually incorrect (hallucinations)?"
+  },
+  {
+    "id": "L4_DEV_Usage_012",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Is there a disclaimer regarding potential social biases or stereotypes in outputs?"
+  },
+  {
+    "id": "L4_DEV_Usage_013",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does the documentation prohibit usage for political campaigning or lobbying?"
+  },
+  {
+    "id": "L4_DEV_Usage_014",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does the documentation prohibit usage for generation of malware or cyber-attacks?"
+  },
+  {
+    "id": "L4_DEV_Usage_015",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does the documentation prohibit usage for automated decision-making in employment or hiring?"
+  },
+  {
+    "id": "L4_DEV_Usage_016",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does the documentation prohibit usage for automated decision-making in credit scoring or insurance?"
+  },
+  {
+    "id": "L4_DEV_Usage_017",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does the documentation prohibit usage for military or warfare applications?"
+  },
+  {
+    "id": "L4_DEV_Usage_018",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does the documentation prohibit usage for surveillance or facial recognition?"
+  },
+  {
+    "id": "L4_DEV_Usage_019",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Is there a policy against using the model to generate disinformation or fake news?"
+  },
+  {
+    "id": "L4_DEV_Usage_020",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Is there a policy against using the model for academic dishonesty (e.g., essay writing without attribution)?"
+  },
+  {
+    "id": "L4_DEV_Usage_021",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Stanford FMTI",
+    "prompt": "Does the documentation specify supported languages (e.g., 'English, Chinese') vs unsupported ones?"
+  },
+  {
+    "id": "L4_DEV_Usage_022",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Stanford FMTI",
+    "prompt": "Does it warn about performance degradation in low-resource languages?"
+  },
+  {
+    "id": "L4_DEV_Usage_023",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Stanford FMTI",
+    "prompt": "Does the documentation specify the supported input modalities (e.g., text, image, audio)?"
+  },
+  {
+    "id": "L4_DEV_Usage_024",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Stanford FMTI",
+    "prompt": "Does the documentation specify the supported output modalities?"
+  },
+  {
+    "id": "L4_DEV_Usage_025",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Stanford FMTI",
+    "prompt": "Does the documentation describe 'Refusal Behavior' (how the model declines unsafe requests)?"
+  },
+  {
+    "id": "L4_DEV_Usage_026",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Is there a mechanism described for users to report policy violations?"
+  },
+  {
+    "id": "L4_DEV_Usage_027",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Is there a contact email or form specifically for safety/ethics concerns?"
+  },
+  {
+    "id": "L4_DEV_Usage_028",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does the documentation mention age restrictions (e.g., 13+ or 18+)?"
+  },
+  {
+    "id": "L4_DEV_Usage_029",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does it require human-in-the-loop for high-stakes applications?"
+  },
+  {
+    "id": "L4_DEV_Usage_030",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does it prohibit using model outputs to train other AI models (distillation)?"
+  },
+  {
+    "id": "L4_DEV_Usage_031",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does it prohibit reverse engineering or extracting model weights?"
+  },
+  {
+    "id": "L4_DEV_Usage_032",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does it require users to disclose to end-users that they are interacting with an AI?"
+  },
+  {
+    "id": "L4_DEV_Usage_033",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does the documentation distinguish between 'Research Use' and 'Commercial Use' permissions?"
+  },
+  {
+    "id": "L4_DEV_Usage_034",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Is there a version history of the Acceptable Use Policy?"
+  },
+  {
+    "id": "L4_DEV_Usage_035",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does it prohibit generating content that violates intellectual property rights?"
+  },
+  {
+    "id": "L4_DEV_Usage_036",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does it prohibit generating Personally Identifiable Information (PII) of real people?"
+  },
+  {
+    "id": "L4_DEV_Usage_037",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does it prohibit 'jailbreaking' or bypassing safety filters?"
+  },
+  {
+    "id": "L4_DEV_Usage_038",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does it prohibit high-volume automated queries (spamming/scraping)?"
+  },
+  {
+    "id": "L4_DEV_Usage_039",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does it mention specific geographic restrictions (e.g., GDPR countries only)?"
+  },
+  {
+    "id": "L4_DEV_Usage_040",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does it prohibit using the model for social scoring?"
+  },
+  {
+    "id": "L4_DEV_Usage_041",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does it prohibit using the model for subliminal manipulation?"
+  },
+  {
+    "id": "L4_DEV_Usage_042",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does it prohibit using the model for emotion recognition in workplace/schools?"
+  },
+  {
+    "id": "L4_DEV_Usage_043",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does the documentation clarify if user inputs are used for model training?"
+  },
+  {
+    "id": "L4_DEV_Usage_044",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Is there an explicit opt-out mechanism for data usage described in the policy?"
+  },
+  {
+    "id": "L4_DEV_Usage_045",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does it prohibit the generation of Deepfakes without clear labeling?"
+  },
+  {
+    "id": "L4_DEV_Usage_046",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does it mention compliance with specific laws (e.g., COPPA, HIPAA)?"
+  },
+  {
+    "id": "L4_DEV_Usage_047",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does it describe enforcement actions for policy violations (e.g., account ban)?"
+  },
+  {
+    "id": "L4_DEV_Usage_048",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Is the usage policy available in multiple languages?"
+  },
+  {
+    "id": "L4_DEV_Usage_049",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does it prohibit using the model to impersonate a specific human individual?"
+  },
+  {
+    "id": "L4_DEV_Usage_050",
+    "indicator": "Intended use and out-of-scope disclosures are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does the documentation define 'harmful content' with specific examples?"
+  },
+  {
+    "id": "L4_DEV_Mech_001",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Stanford FMTI",
+    "prompt": "Does the documentation disclose the EXACT total parameter count (e.g., '671B' rather than 'Large')?"
+  },
+  {
+    "id": "L4_DEV_Mech_002",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Stanford FMTI",
+    "prompt": "Does the documentation disclose the number of non-embedding parameters?"
+  },
+  {
+    "id": "L4_DEV_Mech_003",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Stanford FMTI",
+    "prompt": "If the model is a Mixture-of-Experts (MoE), is the total number of experts explicitly stated?"
+  },
+  {
+    "id": "L4_DEV_Mech_004",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Stanford FMTI",
+    "prompt": "If MoE, is the number of activated experts per token explicitly stated?"
+  },
+  {
+    "id": "L4_DEV_Mech_005",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Stanford FMTI",
+    "prompt": "If MoE, is the number of active parameters per token (FLOPs-equivalent params) explicitly stated?"
+  },
+  {
+    "id": "L4_DEV_Mech_006",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Stanford FMTI",
+    "prompt": "Is the base model architecture explicitly named (e.g., Transformer, Mamba, SSM)?"
+  },
+  {
+    "id": "L4_DEV_Mech_007",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation specify the number of layers (depth) in the model?"
+  },
+  {
+    "id": "L4_DEV_Mech_008",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation specify the hidden dimension size (width)?"
+  },
+  {
+    "id": "L4_DEV_Mech_009",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation specify the number of attention heads?"
+  },
+  {
+    "id": "L4_DEV_Mech_010",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation specify the dimension of each attention head?"
+  },
+  {
+    "id": "L4_DEV_Mech_011",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the specific attention mechanism described (e.g., Multi-Head, Grouped-Query, Multi-Query)?"
+  },
+  {
+    "id": "L4_DEV_Mech_012",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the size of the Key-Value (KV) cache compression or projection dimension explicitly stated?"
+  },
+  {
+    "id": "L4_DEV_Mech_013",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation identify the activation function used (e.g., SwiGLU, GeLU, SiLU)?"
+  },
+  {
+    "id": "L4_DEV_Mech_014",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation identify the normalization technique (e.g., RMSNorm, LayerNorm)?"
+  },
+  {
+    "id": "L4_DEV_Mech_015",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation identify the positional embedding method (e.g., RoPE, ALiBi)?"
+  },
+  {
+    "id": "L4_DEV_Mech_016",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the intermediate size (MLP dimension) explicitly stated?"
+  },
+  {
+    "id": "L4_DEV_Mech_017",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Stanford FMTI",
+    "prompt": "Is the maximum context window length explicitly stated (e.g., 128k tokens)?"
+  },
+  {
+    "id": "L4_DEV_Mech_018",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Stanford FMTI",
+    "prompt": "Does the documentation disclose the total size of the training dataset in tokens?"
+  },
+  {
+    "id": "L4_DEV_Mech_019",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Stanford FMTI",
+    "prompt": "Does the documentation list the data sources used for training (e.g., CommonCrawl, GitHub)?"
+  },
+  {
+    "id": "L4_DEV_Mech_020",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Stanford FMTI",
+    "prompt": "Are the data mixture ratios disclosed (e.g., 50% English text, 10% Code)?"
+  },
+  {
+    "id": "L4_DEV_Mech_021",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Stanford FMTI",
+    "prompt": "Does the documentation disclose the knowledge cutoff date?"
+  },
+  {
+    "id": "L4_DEV_Mech_022",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Stanford FMTI",
+    "prompt": "Does the documentation describe the data preprocessing steps (e.g., deduplication, filtering)?"
+  },
+  {
+    "id": "L4_DEV_Mech_023",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does the documentation specify the vocabulary size of the tokenizer?"
+  },
+  {
+    "id": "L4_DEV_Mech_024",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Is the tokenizer algorithm explicitly named (e.g., BPE, Unigram)?"
+  },
+  {
+    "id": "L4_DEV_Mech_025",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation list special control tokens used by the model?"
+  },
+  {
+    "id": "L4_DEV_Mech_026",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the initialization method for parameters described?"
+  },
+  {
+    "id": "L4_DEV_Mech_027",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does the documentation disclose the specific pre-training objective function?"
+  },
+  {
+    "id": "L4_DEV_Mech_028",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Are the hyperparameters for the optimizer disclosed (e.g., AdamW betas, weight decay)?"
+  },
+  {
+    "id": "L4_DEV_Mech_029",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the learning rate schedule described (e.g., cosine decay, warmup steps)?"
+  },
+  {
+    "id": "L4_DEV_Mech_030",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the batch size used during training disclosed?"
+  },
+  {
+    "id": "L4_DEV_Mech_031",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "NIST AI RMF",
+    "prompt": "Does the documentation describe any architectural modifications made for safety?"
+  },
+  {
+    "id": "L4_DEV_Mech_032",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the use of Rotary Positional Embeddings (RoPE) base frequency disclosed?"
+  },
+  {
+    "id": "L4_DEV_Mech_033",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation specify if biases are used in the Linear layers?"
+  },
+  {
+    "id": "L4_DEV_Mech_034",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does it specify if Tie Word Embeddings was used?"
+  },
+  {
+    "id": "L4_DEV_Mech_035",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are details about the scaling laws used to determine model size provided?"
+  },
+  {
+    "id": "L4_DEV_Mech_036",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Stanford FMTI",
+    "prompt": "Does the documentation explain the decision-making process behind the architecture choice?"
+  },
+  {
+    "id": "L4_DEV_Mech_037",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the maximum sequence length used during training explicitly stated?"
+  },
+  {
+    "id": "L4_DEV_Mech_038",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are the specifics of any Multi-Modal Projectors (e.g., MLP, Cross-Attention) disclosed?"
+  },
+  {
+    "id": "L4_DEV_Mech_039",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the numerical precision used for training master weights disclosed (e.g., FP32)?"
+  },
+  {
+    "id": "L4_DEV_Mech_040",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the numerical precision used for activations/gradients disclosed?"
+  },
+  {
+    "id": "L4_DEV_Mech_041",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does it disclose if Dropout was used and at what rate?"
+  },
+  {
+    "id": "L4_DEV_Mech_042",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Are there diagrams showing the full data flow through the model?"
+  },
+  {
+    "id": "L4_DEV_Mech_043",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does it specify the framework used for training (e.g., PyTorch, JAX)?"
+  },
+  {
+    "id": "L4_DEV_Mech_044",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does it disclose the specific distributed training strategy (e.g., 3D Parallelism)?"
+  },
+  {
+    "id": "L4_DEV_Mech_045",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the size of the tensor parallelism or pipeline parallelism degree stated?"
+  },
+  {
+    "id": "L4_DEV_Mech_046",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation provide the SHA256 or MD5 checksums for the model weights?"
+  },
+  {
+    "id": "L4_DEV_Mech_047",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Stanford FMTI",
+    "prompt": "Are there citations to the academic papers that inspired the architecture?"
+  },
+  {
+    "id": "L4_DEV_Mech_048",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does it explain how the model handles long-context inputs (e.g., extrapolation method)?"
+  },
+  {
+    "id": "L4_DEV_Mech_049",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are details about the Reinforcement Learning (RLHF/RLAIF) reward model architecture disclosed?"
+  },
+  {
+    "id": "L4_DEV_Mech_050",
+    "indicator": "Mechanisms enabling global interpretability are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Is there a description of how the model's output is decoded (e.g., default temperature, top-p)?"
+  },
+  {
+    "id": "L4_DEV_Local_001",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "OSI",
+    "prompt": "Are the raw model weights available for direct download (e.g., via Hugging Face or Torrent)?"
+  },
+  {
+    "id": "L4_DEV_Local_002",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the developer provide official quantized versions (e.g., GGUF, AWQ, INT4) for consumer hardware?"
+  },
+  {
+    "id": "L4_DEV_Local_003",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is there an official Dockerfile or container image provided for local deployment?"
+  },
+  {
+    "id": "L4_DEV_Local_004",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation explicitly mention compatibility with local inference engines like Ollama, vLLM, or llama.cpp?"
+  },
+  {
+    "id": "L4_DEV_Local_005",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Are specific hardware requirements (e.g., 'Requires 24GB VRAM') explicitly listed for local inference?"
+  },
+  {
+    "id": "L4_DEV_Local_006",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "OSI",
+    "prompt": "Does the license allow for modification and redistribution of the weights?"
+  },
+  {
+    "id": "L4_DEV_Local_007",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are there instructions for running the model in 'offline mode' or air-gapped environments?"
+  },
+  {
+    "id": "L4_DEV_Local_008",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the developer provide scripts for local fine-tuning (e.g., LoRA/QLoRA)?"
+  },
+  {
+    "id": "L4_DEV_Local_009",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is there documentation for setting up a local API endpoint compatible with OpenAI standards (e.g., via vLLM)?"
+  },
+  {
+    "id": "L4_DEV_Local_010",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does the documentation confirm that local use does not require sending telemetry data back to the developer?"
+  },
+  {
+    "id": "L4_DEV_Local_011",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are the weights provided in a standard format (e.g., Safetensors) rather than a proprietary binary?"
+  },
+  {
+    "id": "L4_DEV_Local_012",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation list dependencies (e.g., Python version, CUDA version) required for local execution?"
+  },
+  {
+    "id": "L4_DEV_Local_013",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is there a 'Quick Start' guide specifically for local users?"
+  },
+  {
+    "id": "L4_DEV_Local_014",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are there official benchmarks for local inference speed (tokens/sec) on common GPUs?"
+  },
+  {
+    "id": "L4_DEV_Local_015",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the model support CPU-offloading for users with limited VRAM?"
+  },
+  {
+    "id": "L4_DEV_Local_016",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are there instructions for multi-GPU or distributed inference setup?"
+  },
+  {
+    "id": "L4_DEV_Local_017",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the developer provide a local chat UI (e.g., Gradio, Streamlit app) in the repo?"
+  },
+  {
+    "id": "L4_DEV_Local_018",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the tokenizer code available locally without network calls?"
+  },
+  {
+    "id": "L4_DEV_Local_019",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are configuration files (e.g., config.json, generation_config.json) included with the weights?"
+  },
+  {
+    "id": "L4_DEV_Local_020",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation address how to handle context window limits locally?"
+  },
+  {
+    "id": "L4_DEV_Local_021",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are there examples of how to integrate the model locally with RAG (Retrieval-Augmented Generation)?"
+  },
+  {
+    "id": "L4_DEV_Local_022",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the developer provide support for edge devices (e.g., Apple Silicon/Metal, Raspberry Pi)?"
+  },
+  {
+    "id": "L4_DEV_Local_023",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the inference code open-source (e.g., Apache 2.0 or MIT license)?"
+  },
+  {
+    "id": "L4_DEV_Local_024",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation warn about specific security risks of self-hosting (e.g., prompt injection)?"
+  },
+  {
+    "id": "L4_DEV_Local_025",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are checksums (SHA256) provided to verify the integrity of downloaded weights?"
+  },
+  {
+    "id": "L4_DEV_Local_026",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is there a dedicated channel (e.g., Discord, GitHub Discussions) for local deployment support?"
+  },
+  {
+    "id": "L4_DEV_Local_027",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation mention support for tensor parallelism (TP) or pipeline parallelism (PP)?"
+  },
+  {
+    "id": "L4_DEV_Local_028",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are there instructions for converting weights to ONNX or TensorRT formats?"
+  },
+  {
+    "id": "L4_DEV_Local_029",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the model support stateful inference (e.g., caching past kv-pairs locally)?"
+  },
+  {
+    "id": "L4_DEV_Local_030",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is there a clear versioning scheme for model weights?"
+  },
+  {
+    "id": "L4_DEV_Local_031",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation advise on recommended prompt templates for local use?"
+  },
+  {
+    "id": "L4_DEV_Local_032",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are there guidelines for memory estimation before downloading?"
+  },
+  {
+    "id": "L4_DEV_Local_033",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation support deployment on AMD ROCm (not just NVIDIA CUDA)?"
+  },
+  {
+    "id": "L4_DEV_Local_034",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are there provided scripts to verify the correctness of local inference output?"
+  },
+  {
+    "id": "L4_DEV_Local_035",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the developer maintain a 'Model Card' specifically for the downloadable artifacts?"
+  },
+  {
+    "id": "L4_DEV_Local_036",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is there information on how to update the local model when patches are released?"
+  },
+  {
+    "id": "L4_DEV_Local_037",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation explain how to switch between different model sizes (e.g., 7B vs 70B) locally?"
+  },
+  {
+    "id": "L4_DEV_Local_038",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are there troubleshooting guides for common local errors (e.g., OOM, CUDA init failed)?"
+  },
+  {
+    "id": "L4_DEV_Local_039",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation clarify if internet access is required during initialization?"
+  },
+  {
+    "id": "L4_DEV_Local_040",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is there support for 'grammar constrained decoding' in local inference?"
+  },
+  {
+    "id": "L4_DEV_Local_041",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the model support 'speculative decoding' with a smaller local draft model?"
+  },
+  {
+    "id": "L4_DEV_Local_042",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are there instructions for serving the model via Kubernetes?"
+  },
+  {
+    "id": "L4_DEV_Local_043",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation discuss trade-offs between quantization and accuracy?"
+  },
+  {
+    "id": "L4_DEV_Local_044",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the local deployment process automated via scripts (e.g., bash/python setup)?"
+  },
+  {
+    "id": "L4_DEV_Local_045",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the developer provide a 'Colab notebook' or similar for quick testing before local download?"
+  },
+  {
+    "id": "L4_DEV_Local_046",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are the specific file sizes (in GB) of the weights listed?"
+  },
+  {
+    "id": "L4_DEV_Local_047",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation mention support for 'continuous batching' (e.g., via vLLM)?"
+  },
+  {
+    "id": "L4_DEV_Local_048",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are there guidelines for securing the local inference endpoint (e.g., API key, SSL)?"
+  },
+  {
+    "id": "L4_DEV_Local_049",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation state if the model can be run on consumer CPUs (e.g., via llama.cpp)?"
+  },
+  {
+    "id": "L4_DEV_Local_050",
+    "indicator": "Support for local deployment/hosting is documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is there a clear statement that the user owns the outputs generated locally?"
+  },
+  {
+    "id": "L4_DEV_Energy_001",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "ISO 14040",
+    "prompt": "Does the documentation specify the exact total GPU/TPU hours used for training (e.g., '2.788M H800 hours')?"
+  },
+  {
+    "id": "L4_DEV_Energy_002",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Green Software Foundation",
+    "prompt": "Does the documentation identify the specific hardware model used for training (e.g., NVIDIA H100, TPU v5)?"
+  },
+  {
+    "id": "L4_DEV_Energy_003",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "ISO 14040",
+    "prompt": "Is the estimated total energy consumption (in MWh or kWh) explicitly reported?"
+  },
+  {
+    "id": "L4_DEV_Energy_004",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "ISO 14040",
+    "prompt": "Is the estimated total carbon footprint (in tCO2e) explicitly reported?"
+  },
+  {
+    "id": "L4_DEV_Energy_005",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Green Software Foundation",
+    "prompt": "Does the documentation mention the Power Usage Effectiveness (PUE) of the data center used?"
+  },
+  {
+    "id": "L4_DEV_Energy_006",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "OECD",
+    "prompt": "Is the carbon intensity of the energy grid (gCO2e/kWh) disclosed or referenced?"
+  },
+  {
+    "id": "L4_DEV_Energy_007",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the report distinguish between gross emissions and net emissions (after offsets)?"
+  },
+  {
+    "id": "L4_DEV_Energy_008",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Is the geographic location of the training cluster disclosed (e.g., 'US-West', 'Sweden') for verification?"
+  },
+  {
+    "id": "L4_DEV_Energy_009",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Green Software Foundation",
+    "prompt": "Does the documentation discuss emissions related to manufacturing the hardware (embodied carbon), not just electricity?"
+  },
+  {
+    "id": "L4_DEV_Energy_010",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Are the carbon footprint calculations verified by a third-party auditor?"
+  },
+  {
+    "id": "L4_DEV_Energy_011",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation specify the total duration of the training run (e.g., '55 days')?"
+  },
+  {
+    "id": "L4_DEV_Energy_012",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the number of chips (GPUs/TPUs) used in the cluster explicitly stated (e.g., '2048 GPUs')?"
+  },
+  {
+    "id": "L4_DEV_Energy_013",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Green Software Foundation",
+    "prompt": "Does it mention the thermal design power (TDP) or average power draw of the chips used?"
+  },
+  {
+    "id": "L4_DEV_Energy_014",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation report energy consumption for the 'pre-training' phase specifically?"
+  },
+  {
+    "id": "L4_DEV_Energy_015",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation report energy consumption for the 'fine-tuning' (SFT/RLHF) phase?"
+  },
+  {
+    "id": "L4_DEV_Energy_016",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Green Software Foundation",
+    "prompt": "Does it disclose the specific methodology or calculator used (e.g., MLCO2, CodeCarbon)?"
+  },
+  {
+    "id": "L4_DEV_Energy_017",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is there a mention of 'idle power' consumption included in the calculation?"
+  },
+  {
+    "id": "L4_DEV_Energy_018",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation state the percentage of renewable energy used?"
+  },
+  {
+    "id": "L4_DEV_Energy_019",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are specific carbon offset projects (e.g., reforestation, direct air capture) named?"
+  },
+  {
+    "id": "L4_DEV_Energy_020",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does the developer commit to 'Net Zero' or 'Carbon Negative' goals in the document?"
+  },
+  {
+    "id": "L4_DEV_Energy_021",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the total Floating Point Operations (FLOPs) for the training run disclosed?"
+  },
+  {
+    "id": "L4_DEV_Energy_022",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does it mention the utilization rate (MFU/HFU) of the hardware during training?"
+  },
+  {
+    "id": "L4_DEV_Energy_023",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Green Software Foundation",
+    "prompt": "Is there data on the water consumption (water footprint) for data center cooling?"
+  },
+  {
+    "id": "L4_DEV_Energy_024",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation mention if 'spot instances' or 'carbon-aware scheduling' were used?"
+  },
+  {
+    "id": "L4_DEV_Energy_025",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the energy cost of storing the training data (storage overhead) mentioned?"
+  },
+  {
+    "id": "L4_DEV_Energy_026",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are experimental runs (failed runs) included in the total energy report?"
+  },
+  {
+    "id": "L4_DEV_Energy_027",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does the documentation compare the model's efficiency (emissions per parameter) to previous models?"
+  },
+  {
+    "id": "L4_DEV_Energy_028",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is there an estimate of the energy cost per 1M tokens during inference?"
+  },
+  {
+    "id": "L4_DEV_Energy_029",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does it mention the specific cooling technology used (e.g., liquid cooling, air cooling)?"
+  },
+  {
+    "id": "L4_DEV_Energy_030",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the provider of the cloud compute explicitly named (e.g., AWS, Azure, GCP, CoreWeave)?"
+  },
+  {
+    "id": "L4_DEV_Energy_031",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation report the total weight (in kg) of the hardware used (for embodied carbon est.)?"
+  },
+  {
+    "id": "L4_DEV_Energy_032",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the lifespan of the hardware assumed in the embodied carbon calculation disclosed (e.g., 3 years)?"
+  },
+  {
+    "id": "L4_DEV_Energy_033",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the developer provide a 'Green Card' or 'Sustainability Card' summary?"
+  },
+  {
+    "id": "L4_DEV_Energy_034",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are the emissions reported in accordance with the GHG Protocol (Scope 1, 2, 3)?"
+  },
+  {
+    "id": "L4_DEV_Energy_035",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation mention energy savings from using lower precision (e.g., FP8)?"
+  },
+  {
+    "id": "L4_DEV_Energy_036",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the energy cost of data preprocessing (tokenization, filtering) included?"
+  },
+  {
+    "id": "L4_DEV_Energy_037",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are there details on the interconnect energy consumption (e.g., InfiniBand switches)?"
+  },
+  {
+    "id": "L4_DEV_Energy_038",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation warn users about the environmental impact of high-frequency querying?"
+  },
+  {
+    "id": "L4_DEV_Energy_039",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the carbon footprint data available in a machine-readable format (JSON/YAML)?"
+  },
+  {
+    "id": "L4_DEV_Energy_040",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does the developer advocate for policy changes regarding AI sustainability in the document?"
+  },
+  {
+    "id": "L4_DEV_Energy_041",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation specify if the training was done in a 'low-carbon' time window?"
+  },
+  {
+    "id": "L4_DEV_Energy_042",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the 'rebound effect' (Jevons paradox) acknowledged in efficiency claims?"
+  },
+  {
+    "id": "L4_DEV_Energy_043",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation estimate the energy savings from using 'Mixture of Experts' (MoE)?"
+  },
+  {
+    "id": "L4_DEV_Energy_044",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the energy cost of the validation sets evaluation included?"
+  },
+  {
+    "id": "L4_DEV_Energy_045",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation allow for calculation of 'Tokens per kWh'?"
+  },
+  {
+    "id": "L4_DEV_Energy_046",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are there specific metrics on the reduction of 'Stranded Power'?"
+  },
+  {
+    "id": "L4_DEV_Energy_047",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the server density (racks per row) mentioned for cooling efficiency context?"
+  },
+  {
+    "id": "L4_DEV_Energy_048",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the report mention the use of 'Waste Heat Recovery' systems?"
+  },
+  {
+    "id": "L4_DEV_Energy_049",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the carbon footprint of the development team (travel, offices) included or excluded explicitly?"
+  },
+  {
+    "id": "L4_DEV_Energy_050",
+    "indicator": "Training energy consumption and carbon footprint are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Does the documentation provide a 'Confidence Interval' for the reported emission numbers?"
+  },
+  {
+    "id": "L4_DEV_Eff_001",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Green Software Foundation",
+    "prompt": "Does the documentation describe specific attention mechanism optimizations (e.g., MLA, FlashAttention)?"
+  },
+  {
+    "id": "L4_DEV_Eff_002",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "IEEE",
+    "prompt": "Is the use of mixed-precision training (e.g., FP8, BF16) explicitly detailed?"
+  },
+  {
+    "id": "L4_DEV_Eff_003",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Green Software Foundation",
+    "prompt": "Does the documentation explain specific techniques used to compress the Key-Value (KV) Cache?"
+  },
+  {
+    "id": "L4_DEV_Eff_004",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "If MoE is used, is the load balancing strategy (e.g., Auxiliary-loss-free) technically described?"
+  },
+  {
+    "id": "L4_DEV_Eff_005",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "IEEE",
+    "prompt": "Are there details on communication optimization (e.g., overlapping computation and communication)?"
+  },
+  {
+    "id": "L4_DEV_Eff_006",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation provide mathematical formulations or diagrams for the optimization techniques?"
+  },
+  {
+    "id": "L4_DEV_Eff_007",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Gov",
+    "prompt": "Are there ablation studies or comparisons showing the energy/speed impact of the optimizations?"
+  },
+  {
+    "id": "L4_DEV_Eff_008",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation discuss custom kernel implementations (e.g., Triton, CUDA optimizations)?"
+  },
+  {
+    "id": "L4_DEV_Eff_009",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Green Software Foundation",
+    "prompt": "Is the 'training stability' strategy (e.g., loss spike recovery) described as an efficiency factor?"
+  },
+  {
+    "id": "L4_DEV_Eff_010",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation explicitly claim 'Energy Efficiency' and provide technical proof for it?"
+  },
+  {
+    "id": "L4_DEV_Eff_011",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation describe 'Pipeline Parallelism' (PP) implementation details?"
+  },
+  {
+    "id": "L4_DEV_Eff_012",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation describe 'Tensor Parallelism' (TP) implementation details?"
+  },
+  {
+    "id": "L4_DEV_Eff_013",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the use of 'Sequence Parallelism' (SP) described?"
+  },
+  {
+    "id": "L4_DEV_Eff_014",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation explain how 'Context Parallelism' is achieved for long sequences?"
+  },
+  {
+    "id": "L4_DEV_Eff_015",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are there details on 'Gradient Checkpointing' strategies used to save memory?"
+  },
+  {
+    "id": "L4_DEV_Eff_016",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation mention 'ZeRO' (Zero Redundancy Optimizer) stages used?"
+  },
+  {
+    "id": "L4_DEV_Eff_017",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the 'Expert Parallelism' (EP) strategy for MoE models described?"
+  },
+  {
+    "id": "L4_DEV_Eff_018",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does it disclose optimizations for 'Cross-Node Communication' (e.g., reducing All-to-All overhead)?"
+  },
+  {
+    "id": "L4_DEV_Eff_019",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are there specific details on 'Activation Quantization'?"
+  },
+  {
+    "id": "L4_DEV_Eff_020",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are there specific details on 'Weight Quantization' for training?"
+  },
+  {
+    "id": "L4_DEV_Eff_021",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation describe how 'Fine-Grained Quantization' (e.g., tile-wise) is implemented?"
+  },
+  {
+    "id": "L4_DEV_Eff_022",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the handling of 'Outliers' in quantization explicitly discussed?"
+  },
+  {
+    "id": "L4_DEV_Eff_023",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation describe 'Kernel Fusion' techniques used?"
+  },
+  {
+    "id": "L4_DEV_Eff_024",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are there details on optimizing the 'Softmax' operation?"
+  },
+  {
+    "id": "L4_DEV_Eff_025",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does it mention the use of specific hardware instructions (e.g., Tensor Cores, WGMMA)?"
+  },
+  {
+    "id": "L4_DEV_Eff_026",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the 'Router' mechanism for MoE models described mathematically?"
+  },
+  {
+    "id": "L4_DEV_Eff_027",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation explain how 'Expert Specialization' is ensured without collapse?"
+  },
+  {
+    "id": "L4_DEV_Eff_028",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are there details on 'Token Dropping' strategies if expert capacity is exceeded?"
+  },
+  {
+    "id": "L4_DEV_Eff_029",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does it describe optimizations for 'Inference Decoding' (e.g., Medusa, Speculative Decoding)?"
+  },
+  {
+    "id": "L4_DEV_Eff_030",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the implementation of 'PagedAttention' or similar memory management described?"
+  },
+  {
+    "id": "L4_DEV_Eff_031",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation discuss 'Prefix Caching' optimizations?"
+  },
+  {
+    "id": "L4_DEV_Eff_032",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are there details on 'Continuous Batching' implementation?"
+  },
+  {
+    "id": "L4_DEV_Eff_033",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation explain optimizations for 'Long Context' processing (e.g., Ring Attention)?"
+  },
+  {
+    "id": "L4_DEV_Eff_034",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the use of 'Linear Attention' variants mentioned?"
+  },
+  {
+    "id": "L4_DEV_Eff_035",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does it describe 'Sparse Attention' patterns (e.g., Sliding Window, Global Tokens)?"
+  },
+  {
+    "id": "L4_DEV_Eff_036",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are there details on 'Embedding Layer' sharding or optimization?"
+  },
+  {
+    "id": "L4_DEV_Eff_037",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation discuss 'Optimizer State' sharding (e.g., ZeRO-3)?"
+  },
+  {
+    "id": "L4_DEV_Eff_038",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is 'Gradient Accumulation' described as a memory-saving technique?"
+  },
+  {
+    "id": "L4_DEV_Eff_039",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation mention 'Mixed-Precision' for master weights vs computation?"
+  },
+  {
+    "id": "L4_DEV_Eff_040",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are there details on 'Asynchronous execution' of operations?"
+  },
+  {
+    "id": "L4_DEV_Eff_041",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation explain how 'Fault Tolerance' mechanisms reduce wasted compute?"
+  },
+  {
+    "id": "L4_DEV_Eff_042",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is there a discussion on 'Hyperparameter Optimization' efficiency?"
+  },
+  {
+    "id": "L4_DEV_Eff_043",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does it mention 'Curriculum Learning' or data scheduling for faster convergence?"
+  },
+  {
+    "id": "L4_DEV_Eff_044",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are there details on 'Knowledge Distillation' used to create smaller, efficient models?"
+  },
+  {
+    "id": "L4_DEV_Eff_045",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation describe 'Pruning' techniques (structured or unstructured)?"
+  },
+  {
+    "id": "L4_DEV_Eff_046",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is 'Early Exit' during inference mentioned as an optimization?"
+  },
+  {
+    "id": "L4_DEV_Eff_047",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the developer provide a comparative analysis of Training Cost vs Performance?"
+  },
+  {
+    "id": "L4_DEV_Eff_048",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Are the throughput metrics (Tokens/sec/GPU) provided for the specific optimization settings?"
+  },
+  {
+    "id": "L4_DEV_Eff_049",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Does the documentation explain the 'Tokenizer efficiency' (compression rate)?"
+  },
+  {
+    "id": "L4_DEV_Eff_050",
+    "indicator": "Efficiency optimizations are documented",
+    "type": "ADA",
+    "source": "Community",
+    "prompt": "Is the 'Multi-Token Prediction' (MTP) objective described as a training efficiency booster?"
+  }
+]
