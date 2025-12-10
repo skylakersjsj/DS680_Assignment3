@@ -1,0 +1,17 @@
+{
+  "docs": [
+    {
+      "path": "docs/sample_system_card.pdf",
+      "model": "SampleModel_v1",
+      "title": "Sample System Card",
+      "url": "https://example.com/system-card.pdf",
+      "indicators": [
+        "L4_SafetyTradeoffs",
+        "L4_RedTeamingUpdates",
+        "L4_DomainFineTunes",
+        "L4_RollbackMechanisms",
+        "L4_PedagogyEvidence"
+      ]
+    }
+  ]
+}

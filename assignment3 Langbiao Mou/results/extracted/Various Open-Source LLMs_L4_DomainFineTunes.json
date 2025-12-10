@@ -1,0 +1,123 @@
+{
+  "indicator_id": "L4_DomainFineTunes",
+  "model_name": "Various Open-Source LLMs",
+  "doc_title": "Enhancing Environmental Health and Safety_ Fine-Tuning Large Lang",
+  "claims": [
+    {
+      "summary": "Fine-tuning large language models (LLMs) on domain-specific datasets is essential for generating relevant responses in the Environmental Health and Safety (EHS) domain.",
+      "evidence_span": "if we want it to respond to queries and questionnaires specific to a domain in our case the EHS domain we need to fine-tune it based on a domain-specific dataset.",
+      "page_or_section": "9",
+      "confidence": 0.95,
+      "subtags": []
+    },
+    {
+      "summary": "Parameter-Efficient Fine-Tuning (PEFT) allows for adapting pre-trained models to specific tasks without the need for extensive retraining, making it suitable for EHS applications.",
+      "evidence_span": "Parameter-Efficient Fine-Tuning (PEFT) is a method used to adapt an existing pre-trained, for a particular domain or task.",
+      "page_or_section": "9",
+      "confidence": 0.93,
+      "subtags": []
+    },
+    {
+      "summary": "The study aims to develop specialized LLMs tailored for EHS applications to address the unique complexities and regulatory requirements of the field.",
+      "evidence_span": "Therefore, the main motivation of our research is to bridge this gap by developing specialized LLMs tailored specifically for EHS applications.",
+      "page_or_section": "9",
+      "confidence": 0.94,
+      "subtags": []
+    },
+    {
+      "summary": "The research includes constructing a custom dataset for EHS by collecting data from regulatory websites and EHS professionals to enhance model training.",
+      "evidence_span": "Construct a custom dataset for Environment, Health, and Safety (EHS) by scraping regulatory websites, manually collecting data from various EHS books and anonymous answers from EHS professionals in the industry.",
+      "page_or_section": "9",
+      "confidence": 0.92,
+      "subtags": []
+    },
+    {
+      "summary": "The study will test fine-tuned models on real-world EHS scenarios to demonstrate their practical applicability in the field.",
+      "evidence_span": "Test the fine-tuned models on various real-world EHS scenarios to demonstrate the ability to employ fine-tuned LLMs in the EHS domain.",
+      "page_or_section": "9",
+      "confidence": 0.91,
+      "subtags": []
+    },
+    {
+      "summary": "The research highlights the need for specialized LLMs that can accurately understand and respond to complex EHS terminologies and compliance requirements.",
+      "evidence_span": "Such a model is also important as EHS requires a very high level of accuracy and reliability.",
+      "page_or_section": "9",
+      "confidence": 0.9,
+      "subtags": []
+    }
+  ],
+  "metadata": {
+    "selected_pages": [
+      36,
+      14,
+      16,
+      34,
+      10
+    ],
+    "page_scores": [
+      3,
+      1,
+      0,
+      1,
+      3,
+      0,
+      1,
+      3,
+      0,
+      6,
+      1,
+      0,
+      2,
+      7,
+      6,
+      7,
+      0,
+      4,
+      6,
+      4,
+      0,
+      3,
+      4,
+      2,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      5,
+      7,
+      2,
+      8,
+      1,
+      1,
+      1,
+      3,
+      1,
+      0,
+      1,
+      0,
+      2,
+      0,
+      0,
+      0,
+      1,
+      1,
+      2,
+      1,
+      6,
+      3,
+      4,
+      0,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

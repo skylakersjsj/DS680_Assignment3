@@ -1,0 +1,48 @@
+{
+  "indicator_id": "L4_RollbackMechanisms",
+  "model_name": "NIPS-2015-hidden-technical-debt-in-machine-learning-systems-Paper",
+  "doc_title": "NIPS-2015-hidden-technical-debt-in-machine-learning-systems-Paper",
+  "claims": [
+    {
+      "summary": "Creating versioned copies of signals can help manage unstable data dependencies by allowing the use of a stable version until a new one is vetted.",
+      "evidence_span": "One common mitigation strategy for unstable data dependencies is to create a versioned copy of a given signal.",
+      "page_or_section": "Not specified",
+      "confidence": 0.85,
+      "subtags": []
+    },
+    {
+      "summary": "Versioning can lead to issues such as staleness and the maintenance costs of multiple versions.",
+      "evidence_span": "Versioning carries its own costs, however, such as potential staleness and the cost to maintain multiple versions of the same signal over time.",
+      "page_or_section": "Not specified",
+      "confidence": 0.88,
+      "subtags": []
+    },
+    {
+      "summary": "Developing tools for recovery from production incidents is essential for effective incident response.",
+      "evidence_span": "Developing tooling to aid recovery from production incidents is also critical.",
+      "page_or_section": "Not specified",
+      "confidence": 0.9,
+      "subtags": []
+    }
+  ],
+  "metadata": {
+    "selected_pages": [
+      3,
+      8,
+      1,
+      2,
+      4
+    ],
+    "page_scores": [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0
+    ]
+  }
+}

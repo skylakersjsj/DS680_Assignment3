@@ -1,0 +1,6 @@
+{
+  "indicator_id": "L4_RedTeamingUpdates",
+  "model_name": "Claude Sonnet 4.5",
+  "score": 0,
+  "rationale": "The claims provide evidence about red-teaming evaluations and security improvements, but none demonstrate that red-teaming specifically informed alignment updates. The claims show: 1) Performance improvements on malicious/dual-use cases, 2) Benchmark results showing low prompt injection rates, 3) MCP resilience testing, and 4) Plans to strengthen defenses based on external partners. However, there is no explicit connection showing that red-teaming findings directly led to alignment updates or model changes. The evidence describes evaluation outcomes and defensive improvements but lacks the causal link required by the indicator - that red-teaming informs alignment updates."
+}

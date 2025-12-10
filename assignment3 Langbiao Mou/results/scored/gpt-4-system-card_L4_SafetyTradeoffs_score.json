@@ -1,0 +1,6 @@
+{
+  "indicator_id": "L4_SafetyTradeoffs",
+  "model_name": "gpt-4-system-card",
+  "score": 2,
+  "rationale": "The claims provide strong, explicit evidence that the document articulates safety objectives and trade-offs. Multiple claims directly reference specific trade-offs: (1) balancing risk minimization with enabling positive use cases (safety vs. capability), (2) acknowledging that safety challenges don't necessarily outweigh benefits, (3) trade-offs in risk assessment due to biased red team selection, (4) limitations of current mitigations requiring future planning (current capabilities vs. future safety), and (5) acceleration risk highlighting trade-offs between rapid development and safety standards. The evidence spans multiple sections of the document and explicitly discusses the tension between competing objectives, meeting the criteria for strong evidence."
+}

@@ -1,0 +1,6 @@
+{
+  "indicator_id": "L4_RedTeamingUpdates",
+  "model_name": "Claude Sonnet 4.5 System Card",
+  "score": 2,
+  "rationale": "Offline heuristic scoring based on claim count."
+}

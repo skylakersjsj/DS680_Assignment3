@@ -1,0 +1,6 @@
+{
+  "indicator_id": "L4_PedagogyEvidence",
+  "model_name": "ai-report",
+  "score": 0,
+  "rationale": "All claims reference page 23, which is not among the selected pages [5, 68, 71, 27, 60] provided in the metadata. Therefore, the evidence cannot be verified against the actual document content, and no valid evidence is available for scoring this indicator."
+}

@@ -1,0 +1,68 @@
+{
+  "indicator_id": "L4_SafetyTradeoffs",
+  "model_name": "1606.06565v2",
+  "doc_title": "1606.06565v2",
+  "claims": [
+    {
+      "summary": "The document discusses the importance of balancing safety and performance in AI systems, emphasizing the need for a unified approach to prevent unintended harm as systems become more autonomous.",
+      "evidence_span": "While many current-day safety problems can and have been handled with ad hoc fixes or case-by-case rules, we believe that the increasing trend towards end-to-end, fully autonomous systems points towards the need for a unified approach to prevent these systems from causing unintended harm.",
+      "page_or_section": "Related Problems in Safety",
+      "confidence": 0.95,
+      "subtags": []
+    },
+    {
+      "summary": "The authors highlight the challenge of ensuring safety while allowing for exploratory actions in AI systems, indicating a trade-off between risk and capability.",
+      "evidence_span": "A key challenge to making this work is having the agent be a good judge of which exploratory actions are genuinely risky, versus which are safe actions it can unilaterally take.",
+      "page_or_section": "Related Problems in Safety",
+      "confidence": 0.9,
+      "subtags": []
+    },
+    {
+      "summary": "The document suggests that estimating performance on novel distributions can help adapt models to new situations, which involves trade-offs between safety and the ability to generalize.",
+      "evidence_span": "Note that estimating performance on novel distributions has additional practical value in allowing us to then potentially adapt the model to that new situation.",
+      "page_or_section": "Fixing this problem without harming performance",
+      "confidence": 0.88,
+      "subtags": []
+    }
+  ],
+  "metadata": {
+    "selected_pages": [
+      20,
+      2,
+      15,
+      18,
+      21
+    ],
+    "page_scores": [
+      4,
+      9,
+      3,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      3,
+      2,
+      4,
+      5,
+      6,
+      2,
+      2,
+      6,
+      2,
+      10,
+      6,
+      3,
+      2,
+      3,
+      1,
+      0,
+      0,
+      6,
+      3
+    ]
+  }
+}

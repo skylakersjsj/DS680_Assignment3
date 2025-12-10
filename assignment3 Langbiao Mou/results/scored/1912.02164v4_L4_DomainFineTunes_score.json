@@ -1,0 +1,6 @@
+{
+  "indicator_id": "L4_DomainFineTunes",
+  "model_name": "1912.02164v4",
+  "score": 0,
+  "rationale": "The claim discusses fine-tuning with data from different domains and obtaining meaningful gradients, but it does not address safety aspects, which are a core requirement of the indicator 'Domain-specific fine-tunes with safety'. The evidence is generic regarding cross-domain fine-tuning and lacks any mention of safety measures, evaluations, or mitigations."
+}

@@ -1,0 +1,59 @@
+{
+  "indicator_id": "L4_DomainFineTunes",
+  "model_name": "1912.02164v4",
+  "doc_title": "1912.02164v4",
+  "claims": [
+    {
+      "summary": "The document discusses the effectiveness of fine-tuning language models with data from different domains, suggesting that meaningful gradients can still be obtained.",
+      "evidence_span": "an attribute model trained with data from a different domain can still provide meaningful gradients.",
+      "page_or_section": "9",
+      "confidence": 0.85,
+      "subtags": []
+    }
+  ],
+  "metadata": {
+    "selected_pages": [
+      4,
+      6,
+      9,
+      30,
+      1
+    ],
+    "page_scores": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

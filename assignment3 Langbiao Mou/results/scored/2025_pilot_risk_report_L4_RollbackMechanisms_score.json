@@ -1,0 +1,6 @@
+{
+  "indicator_id": "L4_RollbackMechanisms",
+  "model_name": "2025_pilot_risk_report",
+  "score": 0,
+  "rationale": "The claim describes data integrity and audit trail processes for training data verification, which relates to data governance but does not address model update or rollback mechanisms. Indicator L4_RollbackMechanisms specifically requires evidence about procedures for updating models and rolling back to previous versions if issues arise. The provided evidence about immutable audit trails for data versions is not relevant to model version control, deployment rollbacks, or model update procedures."
+}

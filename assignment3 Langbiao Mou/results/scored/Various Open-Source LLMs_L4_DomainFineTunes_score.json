@@ -1,0 +1,6 @@
+{
+  "indicator_id": "L4_DomainFineTunes",
+  "model_name": "Various Open-Source LLMs",
+  "score": 2,
+  "rationale": "The document provides strong, explicit evidence for domain-specific fine-tuning with safety considerations. All six claims directly support the indicator with clear evidence spans showing: 1) the necessity of fine-tuning LLMs for the Environmental Health and Safety (EHS) domain, 2) the use of Parameter-Efficient Fine-Tuning (PEFT) methods, 3) development of specialized LLMs for EHS applications, 4) construction of custom EHS datasets from regulatory sources and professionals, 5) testing on real-world EHS scenarios, and 6) emphasis on accuracy and reliability requirements for safety-critical applications. The evidence explicitly addresses both domain-specific fine-tuning (EHS domain) and safety considerations (EHS requires high accuracy and reliability), making this strong support for the indicator."
+}

@@ -1,0 +1,113 @@
+{
+  "indicator_id": "L4_SafetyTradeoffs",
+  "model_name": "gpt-4-system-card",
+  "doc_title": "gpt-4-system-card",
+  "claims": [
+    {
+      "summary": "The deployment of GPT-4 involves balancing the minimization of risks with the enablement of positive use cases, indicating a trade-off between safety and capability.",
+      "evidence_span": "Our approach to deployment balances minimizing risk from deployment, enabling positive use cases, and learning from deployment.",
+      "page_or_section": "1.1 Overview of findings and mitigations",
+      "confidence": 0.95,
+      "subtags": []
+    },
+    {
+      "summary": "The document acknowledges that while safety challenges are significant, they do not necessarily outweigh the potential benefits of the model, suggesting a trade-off consideration.",
+      "evidence_span": "We focus on safety challenges not because they necessarily outweigh the potential beneﬁts, but because we wish to motivate further work in safety measurement, mitigation, and assurance.",
+      "page_or_section": "1.1 Overview of findings and mitigations",
+      "confidence": 0.93,
+      "subtags": []
+    },
+    {
+      "summary": "The iterative red teaming process is influenced by biases in the selection of experts, which may affect the identification and interpretation of risks, highlighting a trade-off in risk assessment.",
+      "evidence_span": "Our selection of red teamers introduces some biases, and likely influenced both how red teamers interpreted particular risks as well as how they probed politics, values, and the default behavior of the model.",
+      "page_or_section": "1.1 Overview of findings and mitigations",
+      "confidence": 0.9,
+      "subtags": []
+    },
+    {
+      "summary": "The document discusses the need for anticipatory planning and governance due to the limitations of current safety mitigations, indicating a trade-off between current capabilities and future safety.",
+      "evidence_span": "Our mitigations and processes alter GPT-4’s behavior and prevent certain kinds of misuses, though they have limitations, pointing to the need for anticipatory planning and governance.",
+      "page_or_section": "1.1 Overview of findings and mitigations",
+      "confidence": 0.92,
+      "subtags": []
+    },
+    {
+      "summary": "The concern about acceleration risk highlights the trade-off between rapid AI development and maintaining safety standards, suggesting that faster deployment may compromise safety.",
+      "evidence_span": "One concern of particular importance to OpenAI is the risk of racing dynamics leading to a decline in safety standards, the diffusion of bad norms, and accelerated AI timelines, each of which heighten societal risks associated with AI.",
+      "page_or_section": "2.12 Acceleration",
+      "confidence": 0.94,
+      "subtags": []
+    }
+  ],
+  "metadata": {
+    "selected_pages": [
+      5,
+      2,
+      3,
+      19,
+      29
+    ],
+    "page_scores": [
+      3,
+      15,
+      15,
+      6,
+      17,
+      2,
+      2,
+      0,
+      1,
+      2,
+      2,
+      1,
+      2,
+      3,
+      3,
+      3,
+      1,
+      5,
+      15,
+      1,
+      8,
+      0,
+      6,
+      3,
+      0,
+      3,
+      0,
+      5,
+      10,
+      2,
+      1,
+      5,
+      4,
+      2,
+      1,
+      2,
+      0,
+      1,
+      0,
+      6,
+      0,
+      0,
+      5,
+      2,
+      0,
+      0,
+      2,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      3,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  }
+}

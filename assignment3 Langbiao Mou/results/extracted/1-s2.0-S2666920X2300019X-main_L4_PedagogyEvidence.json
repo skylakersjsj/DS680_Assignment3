@@ -1,0 +1,50 @@
+{
+  "indicator_id": "L4_PedagogyEvidence",
+  "model_name": "1-s2.0-S2666920X2300019X-main",
+  "doc_title": "1-s2.0-S2666920X2300019X-main",
+  "claims": [
+    {
+      "summary": "The study evaluates the effectiveness of ChatGPT in generating high-quality reflective writing for pharmacy courses, suggesting it outperforms student-generated reflections.",
+      "evidence_span": "we found that (i) ChatGPT may be capable of generating high-quality reflective responses in writing assignments administered across different pharmacy courses, (ii) the quality of automatically generated reflective responses was higher in all six assessment criteria than the quality of student-written reflections.",
+      "page_or_section": "Introduction",
+      "confidence": 0.95,
+      "subtags": []
+    },
+    {
+      "summary": "The research highlights the potential risks of using ChatGPT for reflective writing tasks, indicating that reliance on AI may hinder students' development of critical thinking and reflective skills.",
+      "evidence_span": "this may deprive them of developing critical thinking and idea-synthesising skills that were purposefully designed for the reflective writing task, leading to fewer learning opportunities.",
+      "page_or_section": "Implications",
+      "confidence": 0.93,
+      "subtags": []
+    },
+    {
+      "summary": "The study discusses the need for computational classifiers to detect AI-generated content in educational settings, emphasizing the challenges posed by ChatGPT to academic integrity.",
+      "evidence_span": "we posit that computational classifiers (such as the BERT classifier evaluated in the present study) are needed to address the challenges presented by ChatGPT potentially beyond the task of reflective writing.",
+      "page_or_section": "Conclusion",
+      "confidence": 0.9,
+      "subtags": []
+    }
+  ],
+  "metadata": {
+    "selected_pages": [
+      10,
+      11,
+      1,
+      2,
+      8
+    ],
+    "page_scores": [
+      15,
+      13,
+      7,
+      7,
+      5,
+      4,
+      1,
+      11,
+      1,
+      23,
+      18
+    ]
+  }
+}
