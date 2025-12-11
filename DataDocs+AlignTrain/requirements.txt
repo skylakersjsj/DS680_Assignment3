@@ -1,0 +1,13 @@
+# L4_DEV_DatasheetsData Requirements
+
+# Core dependencies
+openai>=1.0.0
+PyPDF2>=3.0.0
+
+# Optional dependencies for enhanced functionality
+python-dotenv>=1.0.0  # For managing API keys
+requests>=2.31.0  # For web requests
+
+# For development and testing
+pytest>=7.4.0  # Unit testing
+black>=23.0.0  # Code formatting

@@ -1,0 +1,54 @@
+{
+  "models": [
+    {
+      "name": "DeepSeek-V3",
+      "type": "Open Weights",
+      "ada_score": 1,
+      "hij_score": 1,
+      "weighted_score": 1,
+      "evidence": {
+        "has_datasheet": false,
+        "has_composition_info": true,
+        "has_source_info": false,
+        "has_intended_use": false,
+        "has_limitations": true,
+        "has_version_info": false,
+        "has_timestamp": true,
+        "has_change_records": false,
+        "coverage_ratio": 0.5,
+        "key_quotes": [
+          "During pre-training, we train DeepSeek-V3 on 14.8T high-quality and diverse tokens.",
+          "Lastly, we conclude this work, discuss existing limitations of DeepSeek-V3, and propose potential directions for future research.",
+          "arXiv:2412.19437v2  [cs.CL]  18 Feb 2025"
+        ]
+      },
+      "hij_rationale": "The evidence provided indicates a lack of comprehensive data documentation for DeepSeek-V3. There is no mention of datasheets or data statements, which are crucial for understanding the dataset's characteristics and ensuring transparency. While there is some information on data composition and limitations, critical elements such as source information, intended use, version control, and change records are missing. The presence of a timestamp alone does not compensate for the absence of these structured documentation elements. The coverage ratio of 0.2 further suggests that the documentation is incomplete. Given these observations, the ADA's assessment of a score of 0 is accurate, as the documentation does not meet the minimum requirements for a higher score according to the HIJ scoring rubric.",
+      "gpt4o_reasoning": "Evidence Analysis:\nThe document does not explicitly mention datasheets or data statements, nor does it provide detailed source information or intended use for the datasets. It does, however, discuss data composition in terms of the number of tokens and diversity. Limitations are mentioned in the conclusion section. There is a timestamp in the form of an arXiv submission date, but no version control or change records are evident. The coverage ratio is low as only pre-training data is somewhat documented, with no clear documentation for other dataset types.\n\nADA Scoring:\nThe evidence indicates that there is no explicit mention of datasheets or data statements, which is a critical requirement for a score of 1 or 2. While there is some information about data composition and limitations, the absence of source information, intended use, version control, and change records suggests a lack of structured documentation. The presence of a timestamp alone is insufficient to demonstrate continuous version-based maintenance or comprehensive dataset documentation. The coverage ratio is also low, indicating incomplete documentation. Therefore, the documentation aligns with the criteria for a score of 0, as it provides only very general descriptions without the necessary structured documentation elements."
+    },
+    {
+      "name": "Gemini 2.5 Deep Think",
+      "type": "Closed API",
+      "ada_score": 1,
+      "hij_score": 2,
+      "weighted_score": 1.5,
+      "evidence": {
+        "has_datasheet": false,
+        "has_composition_info": true,
+        "has_source_info": true,
+        "has_intended_use": true,
+        "has_limitations": true,
+        "has_version_info": false,
+        "has_timestamp": true,
+        "has_change_records": false,
+        "coverage_ratio": 0.4,
+        "key_quotes": [
+          "The pre-training dataset was a large-scale, diverse collection of data encompassing a wide range of domains and modalities, which included publicly-available web-documents, code (various programming languages), images, audio (including speech and other audio types) and video.",
+          "Benefit and Intended Usage: Gemini 2.5 Deep Think can help solve problems that require creativity, strategic planning and making improvements step-by-step.",
+          "Known Limitations: Gemini 2.5 Deep Think may exhibit some of the general limitations of foundation models, such as hallucinations."
+        ]
+      },
+      "hij_rationale": "The evidence provided indicates that the documentation for Gemini 2.5 Deep Think includes some key elements such as data composition, sources, intended use, and limitations. However, it lacks critical components like datasheets or data statements, version information, and change records. The presence of a timestamp suggests some temporal tracking, but without version management details or changelogs, the documentation cannot be considered comprehensive or dynamic. The coverage ratio of 0.4 further supports the notion that the documentation is incomplete. Given these observations, the ADA's assessment of a score of 1 is appropriate, as it reflects the presence of some static information without complete coverage or versioning practices.",
+      "gpt4o_reasoning": "Evidence Analysis:\nThe document does not explicitly mention datasheets or data statements, nor does it provide version management details or changelogs. However, it does include information about data composition and sources, intended use, and known limitations. The timestamp is present, but the coverage ratio is low as not all key dataset types are documented.\n\nADA Scoring:\nThe evidence indicates that there is some explanatory documentation about the key datasets, including information on data composition, sources, intended use, and limitations. However, there is no mention of datasheets or data statements, and the documentation lacks version information, change records, and comprehensive coverage (with a coverage ratio of only 0.4). The presence of a timestamp suggests some level of temporal tracking, but the absence of version management details and changelogs prevents a higher score. Therefore, the documentation aligns with the criteria for a score of 1, as it provides some static information without complete coverage or dynamic versioning."
+    }
+  ]
+}

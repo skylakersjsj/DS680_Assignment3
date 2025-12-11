@@ -1,0 +1,55 @@
+{
+  "indicator": "L4_DEV_AnnotatorGuidelines",
+  "description": "Annotator guidelines and documentation evaluation",
+  "evaluation_date": "2025-12-10",
+  "models": [
+    {
+      "name": "DeepSeek-V3",
+      "type": "Open Weights",
+      "ada_score": 0,
+      "hij_score": 1,
+      "weighted_score": 0.5,
+      "evidence": {
+        "has_written_guidelines": false,
+        "has_annotation_manual": false,
+        "has_core_principles": false,
+        "has_label_definitions": false,
+        "has_boundary_case_rules": false,
+        "has_examples": false,
+        "has_quality_standards": false,
+        "has_process_description": false,
+        "has_safety_policy": false,
+        "guideline_sections_count": 0,
+        "key_quotes": []
+      },
+      "hij_rationale": "Upon reviewing the provided evidence and reasoning, I concur with the ADA's assessment that the materials related to the DeepSeek-V3 model do not contain any specific annotation guidelines. The absence of written guidelines, annotation manuals, core principles, label definitions, boundary case rules, examples, quality standards, process descriptions, or safety policies indicates a lack of structured guidance for annotators. The document appears to focus solely on the technical aspects of the model without addressing the annotation practices. Without any evidence of structured annotation guidance, I cannot assign a higher score. Therefore, the HIJ score remains at 0, as there is no indication of a clear approach to guiding annotators within the available materials.",
+      "gpt4o_reasoning": "Evidence Analysis:\nThe document provided is a technical report on the DeepSeek-V3 model, focusing on its architecture, training, and evaluation. It does not contain any sections or references to annotation guidelines, manuals, core principles, label definitions, boundary case rules, examples, quality standards, process descriptions, or safety policies related to annotation work. The content is primarily technical and model-focused, without any mention of annotation practices or guidelines.\n\nADA Scoring:\nThe evidence indicates that there are no written guidelines, annotation manuals, core principles, label definitions, boundary case rules, examples, quality standards, process descriptions, or safety policies related to annotation work. The document is focused on the technical aspects of the DeepSeek-V3 model and does not provide any information on annotation practices or guidelines. Therefore, it fits the criteria for an ADA score of 0, as there are only very general statements and no specific annotation guidance is evident."
+    },
+    {
+      "name": "Gemini 2.5 Deep Think",
+      "type": "Closed API",
+      "ada_score": 1,
+      "hij_score": 2,
+      "weighted_score": 1.5,
+      "evidence": {
+        "has_written_guidelines": false,
+        "has_annotation_manual": false,
+        "has_core_principles": false,
+        "has_label_definitions": false,
+        "has_boundary_case_rules": false,
+        "has_examples": false,
+        "has_quality_standards": false,
+        "has_process_description": false,
+        "has_safety_policy": true,
+        "guideline_sections_count": 1,
+        "key_quotes": [
+          "Gemini safety policies align with Google’s standard framework for the types of harmful content that we make best efforts to prevent our Generative AI models from generating.",
+          "We perform testing following the guidelines in Google DeepMind’s Frontier Safety Framework (FSF).",
+          "Safety and responsibility was built into Gemini 2.5 Deep Think throughout the training and deployment lifecycle, including pre-training, post-training, and product-level mitigations."
+        ]
+      },
+      "hij_rationale": "Upon reviewing the provided evidence and reasoning, the ADA's assessment appears accurate. The documentation primarily focuses on safety policies and the model's capabilities, with specific references to alignment with Google's standard framework and the Frontier Safety Framework (FSF). However, there is no mention of written annotation guidelines, annotation manuals, core principles, label definitions, boundary case rules, examples, quality standards, or process descriptions related to annotation. The presence of safety policies, while important, does not provide insight into the annotation process or guidance for annotators. Therefore, the materials are insufficient to demonstrate that there are real annotation guidelines or a clear approach to guiding annotators. The ADA score of 0 is appropriate as it reflects the lack of specific annotation-related content or guidance in the documentation provided.",
+      "gpt4o_reasoning": "Evidence Analysis:\nThe document primarily focuses on the model's capabilities, evaluation, and safety policies rather than providing comprehensive annotation guidelines. There is no mention of an annotation manual, core principles for annotation, label definitions, boundary case rules, examples, quality standards, or a detailed annotation process. However, it does include extensive safety policies and procedures related to the model's deployment and use.\n\nADA Scoring:\nThe evidence indicates that there are no written guidelines, annotation manuals, core principles, label definitions, boundary case rules, examples, quality standards, or process descriptions related to annotation. The document primarily focuses on safety policies and the model's capabilities, with no specific information on annotation guidelines. The presence of safety policies alone does not provide sufficient detail to determine if annotators have clear written guidance. Therefore, the document aligns with the criteria for an ADA score of 0, as it lacks any specific annotation-related content or guidance."
+    }
+  ]
+}

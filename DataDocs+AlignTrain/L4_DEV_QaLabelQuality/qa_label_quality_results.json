@@ -1,0 +1,64 @@
+{
+  "indicator": "L4_DEV_QaLabelQuality",
+  "description": "Label QA & diversity evaluation",
+  "models": [
+    {
+      "name": "DeepSeek-V3",
+      "type": "Open Weights",
+      "ada_score": 0,
+      "hij_score": 0,
+      "weighted_score": 0.0,
+      "evidence": {
+        "has_quality_qa_process": false,
+        "has_sampling_review": false,
+        "has_gold_standard": false,
+        "has_consistency_metrics": false,
+        "has_error_analysis": false,
+        "has_diversity_assessment": false,
+        "covers_content_types": true,
+        "covers_languages": true,
+        "covers_user_groups": false,
+        "reports_label_distribution": false,
+        "has_quality_records": false,
+        "quality_coverage_score": 0.1,
+        "diversity_coverage_score": 0.5,
+        "key_quotes": [
+          "We pre-train DeepSeek-V3 on 14.8 trillion diverse and high-quality tokens.",
+          "Compared with DeepSeek-V2, we optimize the pre-training corpus by enhancing the ratio of mathematical and programming samples, while expanding multilingual coverage beyond English and Chinese.",
+          "The base model of DeepSeek-V3 is pretrained on a multilingual corpus with English and Chinese constituting the majority."
+        ]
+      },
+      "hij_rationale": "The evidence provided indicates a lack of structured QA processes for DeepSeek-V3. There are no mentions of sampling reviews, gold standards, consistency metrics, error analysis, or diversity assessments related to user groups or label distributions. The focus is primarily on the diversity of training data in terms of content types and languages, but this does not equate to a systematic quality assurance process. Without any evidence of actionable quality or diversity inspection practices, the materials fit the criteria for an HIJ score of 0, indicating that real QA has not been demonstrated.",
+      "gpt4o_reasoning": "Evidence Analysis:\nThe document mentions diverse and high-quality tokens and multilingual coverage, indicating attention to content types and languages. However, there is no explicit mention of structured QA processes, sampling reviews, gold standards, consistency metrics, error analysis, or user group coverage. The focus is more on the diversity of the training data rather than the quality assurance processes.\n\nADA Scoring:\nThe evidence indicates a focus on the diversity of training data, specifically in terms of content types and languages. However, there is no mention of any structured QA processes such as sampling reviews, gold standards, consistency metrics, or error analysis. Additionally, there is no evidence of diversity assessment related to user groups or label distributions. The document lacks any systematic quality assurance or diversity inspection practices, fitting the criteria for an ADA score of 0."
+    },
+    {
+      "name": "Gemini 2.5",
+      "type": "Closed API",
+      "ada_score": 1,
+      "hij_score": 1,
+      "weighted_score": 1.0,
+      "evidence": {
+        "has_quality_qa_process": true,
+        "has_sampling_review": true,
+        "has_gold_standard": false,
+        "has_consistency_metrics": false,
+        "has_error_analysis": true,
+        "has_diversity_assessment": false,
+        "covers_content_types": true,
+        "covers_languages": true,
+        "covers_user_groups": false,
+        "reports_label_distribution": false,
+        "has_quality_records": false,
+        "quality_coverage_score": 0.5,
+        "diversity_coverage_score": 0.3,
+        "key_quotes": [
+          "Data filtering and preprocessing included techniques such as deduplication, safety filtering in-line with Google's commitment to advancing AI safely and responsibly and quality filtering to mitigate risks and improve training data reliability.",
+          "Correctness Checks: For each risk domain, we sampled agent trajectory transcripts and performed a sequence of spot checks to help identify spurious failures and potential bugs in our evaluation environments.",
+          "The pre-training dataset was a large-scale, diverse collection of data encompassing a wide range of domains and modalities, which included publicly-available web-documents, code (various programming languages), images, audio (including speech and other audio types) and video."
+        ]
+      },
+      "hij_rationale": "The QA processes for Gemini 2.5 demonstrate some level of quality inspection, as evidenced by the presence of data filtering, preprocessing, and sampling-based spot checks. These activities indicate an effort to ensure data quality and reliability. Additionally, there is mention of error analysis through systematic spot checks, which suggests some level of QA practice. However, the QA processes appear fragmented and lack comprehensive elements such as gold standards, consistency metrics, and a thorough diversity assessment. The absence of user group diversity and label distribution reports further highlights the limited scope of the QA processes. While there are some QA activities in place, they do not form a cohesive or reusable QA workflow, fitting the criteria for a score of 1, indicating that only 'a little' QA has been done.",
+      "gpt4o_reasoning": "Evidence Analysis:\nThe document mentions structured QA processes like data filtering and preprocessing, and sampling-based spot checks, indicating a focus on quality. However, there is no mention of gold standard references or consistency metrics. Error analysis is evident through systematic spot checks. While content types and languages are covered, there is no explicit mention of user group diversity or label distribution reports. The overall quality and diversity coverage are moderate, with some processes in place but lacking comprehensive details.\n\nADA Scoring:\nThe evidence indicates some QA processes, such as data filtering, preprocessing, and sampling-based spot checks, which suggest a focus on quality. There is also mention of error analysis through systematic spot checks. However, there is no mention of gold standards, consistency metrics, or comprehensive diversity assessment. While content types and languages are covered, there is no explicit mention of user group diversity or label distribution reports. The overall quality and diversity coverage are moderate, with some processes in place but lacking comprehensive details, fitting the criteria for a score of 1."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "indicator": "L4_DEV_EduGoalSpec",
+  "description": "Education goal specification evaluation",
+  "models": [
+    {
+      "name": "DeepSeek-V3",
+      "type": "Open Weights",
+      "ada_score": 0,
+      "hij_score": 0,
+      "weighted_score": 0.0,
+      "evidence": {
+        "has_written_goals": false,
+        "goals_are_specific": false,
+        "has_kpis": false,
+        "mentions_training_coverage": false,
+        "mentions_violation_rate": false,
+        "has_baseline": false,
+        "has_assessment_plan": false,
+        "mentions_pre_post_testing": false,
+        "mentions_surveys_or_quizzes": false,
+        "mentions_kpi_targets": false,
+        "mentions_measurement_frequency": false,
+        "references_kirkpatrick_levels": false,
+        "education_scope_score": 0.0,
+        "measurement_rigor_score": 0.0,
+        "key_quotes": []
+      },
+      "hij_rationale": "The document lacks any mention of educational goals, KPIs, baselines, or assessment plans. It is primarily focused on technical aspects and responsible-use tips, without providing actionable educational frameworks or evaluation metrics. This aligns with the HIJ=0 criteria, which indicates the presence of mostly slogans or promotional content without any structured educational measurement practice.",
+      "gpt4o_reasoning": "Evidence Analysis:\nThe document focuses on the technical aspects and performance of the DeepSeek-V3 model, with no mention of education or training goals, KPIs, or assessment plans related to safe AI use.\n\nADA Scoring:\nThe evidence indicates no mention of education, goals, KPIs, baselines, or assessment plans. The document is focused on technical aspects without any educational framework, aligning with ADA=0 criteria."
+    },
+    {
+      "name": "Gemini 2.5",
+      "type": "Closed API",
+      "ada_score": 0,
+      "hij_score": 1,
+      "weighted_score": 0.5,
+      "evidence": {
+        "has_written_goals": false,
+        "goals_are_specific": false,
+        "has_kpis": false,
+        "mentions_training_coverage": false,
+        "mentions_violation_rate": false,
+        "has_baseline": true,
+        "has_assessment_plan": true,
+        "mentions_pre_post_testing": false,
+        "mentions_surveys_or_quizzes": false,
+        "mentions_kpi_targets": false,
+        "mentions_measurement_frequency": false,
+        "references_kirkpatrick_levels": false,
+        "education_scope_score": 0.4,
+        "measurement_rigor_score": 0.6,
+        "key_quotes": [
+          "We conduct baseline assurance evaluations to guide decisions on model releases.",
+          "These evaluations and activities align with Google's AI Principles and responsible AI approach.",
+          "We perform testing following the guidelines in Google DeepMind’s Frontier Safety Framework (FSF)."
+        ]
+      },
+      "hij_rationale": "The document lacks explicit written goals, specific goals, and KPIs related to education/training for safe AI use. While it mentions baseline evaluations and assessment plans, these are not linked to specific educational goals or KPIs. There is no mention of training coverage, violation rates, pre/post testing, surveys, quizzes, KPI targets, or measurement frequency. The absence of these elements indicates that education is not treated as measurable and traceable, thus fitting the criteria for an HIJ score of 0. The content is mostly promotional and lacks actionable goals, KPIs, baselines, or evaluation cadence, aligning with the HIJ rubric for a score of 0.",
+      "gpt4o_reasoning": "Evidence Analysis:\nThe document lacks explicit written goals, specific goals, and KPIs related to education/training for safe AI use. However, it mentions baseline evaluations and assessment plans, indicating some level of measurement rigor. There is no mention of training coverage, violation rates, pre/post testing, surveys, quizzes, KPI targets, or measurement frequency. The document does not reference Kirkpatrick levels.\n\nADA Scoring:\nThe document lacks explicit written goals, specific goals, and KPIs related to education/training for safe AI use. While it mentions baseline evaluations and assessment plans, these are not linked to specific educational goals or KPIs. There is no mention of training coverage, violation rates, pre/post testing, surveys, quizzes, KPI targets, or measurement frequency. The absence of these elements indicates that education is not treated as measurable and traceable, thus fitting the criteria for an ADA score of 0."
+    }
+  ]
+}

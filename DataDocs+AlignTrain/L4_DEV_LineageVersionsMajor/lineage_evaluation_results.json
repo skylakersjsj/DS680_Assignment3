@@ -1,0 +1,59 @@
+{
+  "indicator": "L4_DEV_LineageVersionsMajor",
+  "description": "Dataset lineage and version tracking evaluation",
+  "evaluation_date": "2025-12-10",
+  "models": [
+    {
+      "name": "DeepSeek-V3",
+      "type": "Open Weights",
+      "ada_score": 0,
+      "hij_score": 1,
+      "weighted_score": 0.5,
+      "evidence": {
+        "has_dataset_names": false,
+        "has_dataset_ids": false,
+        "has_version_labels": false,
+        "has_upstream_sources": false,
+        "has_processing_steps": true,
+        "has_version_differences": false,
+        "has_model_dataset_mapping": false,
+        "has_data_pipeline": true,
+        "named_datasets_count": 0,
+        "versioned_datasets_count": 0,
+        "key_quotes": [
+          "During pre-training, we train DeepSeek-V3 on 14.8T high-quality and diverse tokens.",
+          "We optimize the pre-training corpus by enhancing the ratio of mathematical and programming samples, while expanding multilingual coverage beyond English and Chinese.",
+          "Our data processing pipeline is refined to minimize redundancy while maintaining corpus diversity."
+        ]
+      },
+      "hij_rationale": "Upon reviewing the provided evidence and reasoning, I agree with the ADA's assessment that the documentation lacks sufficient detail for reliable data lineage and version tracking. The document mentions pre-training on a large corpus and some data processing steps, but it does not specify dataset names, IDs, or version labels. There is no mention of upstream sources or a systematic approach to tracking dataset versions. The absence of a dataset version table or a clear mapping between datasets and model versions further supports the ADA's score of 0. The information provided is too general and lacks the necessary details to establish a robust lineage or version tracking mechanism. Therefore, the HIJ score remains at 0, indicating that the documentation is limited to vague explanations without a reliable tracking system.",
+      "gpt4o_reasoning": "Evidence Analysis:\nThe document does not provide specific names or IDs for datasets, nor does it mention version labels or upstream sources. However, it describes processing steps and a data pipeline. There is no documentation of version differences or mapping between dataset versions and model versions. The document focuses on the model's architecture and training process rather than detailed dataset lineage or version tracking.\n\nADA Scoring:\nThe evidence lacks specific names or IDs for datasets, version labels, and upstream sources, which are crucial for determining dataset lineage and version tracking. Although there are mentions of data processing steps and a data pipeline, these are not sufficient to establish a clear lineage or version tracking system. The document does not provide any systematic structure like a 'dataset version table' or mapping between dataset versions and model versions. Therefore, it fits the criteria for an ADA score of 0, as it only provides general statements about data processing without detailed lineage or version information."
+    },
+    {
+      "name": "Gemini 2.5 Deep Think",
+      "type": "Closed API",
+      "ada_score": 1,
+      "hij_score": 1,
+      "weighted_score": 1.0,
+      "evidence": {
+        "has_dataset_names": false,
+        "has_dataset_ids": false,
+        "has_version_labels": false,
+        "has_upstream_sources": true,
+        "has_processing_steps": true,
+        "has_version_differences": false,
+        "has_model_dataset_mapping": false,
+        "has_data_pipeline": false,
+        "named_datasets_count": 0,
+        "versioned_datasets_count": 0,
+        "key_quotes": [
+          "The pre-training dataset was a large-scale, diverse collection of data encompassing a wide range of domains and modalities, which included publicly-available web-documents, code (various programming languages), images, audio (including speech and other audio types) and video.",
+          "Data filtering and preprocessing included techniques such as deduplication, safety filtering in-line with Google's commitment to advancing AI safely and responsibly and quality filtering to mitigate risks and improve training data reliability.",
+          "The post-training dataset consisted of vetted instruction tuning data and was a collection of multimodal data with paired instructions and responses in addition to human preference and tool-use data."
+        ]
+      },
+      "hij_rationale": "The documentation provides some lineage information, including descriptions of the types of data used for pre-training and post-training, as well as processing steps like deduplication and safety filtering. However, the information is fragmented and lacks specific dataset names, IDs, or version labels. There is no clear mapping of dataset versions to model versions, and no systematic structure for tracking dataset versions. While there is some evidence of data governance practices, such as safety filtering, the lack of detailed dataset identification and version tracking prevents the documentation from achieving a higher score. Therefore, the documentation can be considered 'conscious, but not systematic' in terms of data lineage and version tracking, justifying a HIJ score of 1.",
+      "gpt4o_reasoning": "Evidence Analysis:\nThe document does not provide specific names or IDs for datasets, nor does it mention version labels. It does describe the types of data used and some processing steps, such as deduplication and safety filtering. However, there is no detailed mapping of dataset versions to model versions, nor is there a description of a data pipeline or lineage flow. The document mentions upstream sources generally, such as publicly-available web-documents and multimodal data, but lacks specific dataset identifiers or names.\n\nADA Scoring:\nThe evidence provided includes some lineage-related information, such as the mention of upstream sources like publicly-available web-documents and multimodal data, as well as data processing steps like deduplication and safety filtering. However, there are no specific names or IDs for datasets, no version labels, and no mapping of dataset versions to model versions. The document lacks a systematic dataset version table or similar structure, which prevents it from achieving a higher score. Therefore, the document meets the criteria for an ADA score of 1, as it provides some lineage information but lacks detailed dataset identification and version tracking."
+    }
+  ]
+}
